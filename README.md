@@ -29,7 +29,7 @@ what you get back:
 
 ### POST - Login
 <details>
-<summary>https://plantszapi.herokuapp.com/auth/login</summary>
+<summary>https://plantszapi.herokuapp.com/api/auth/login</summary>
 
 ```JSON
 what you need:
