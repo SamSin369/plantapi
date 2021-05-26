@@ -1,7 +1,7 @@
 # Build Week Food Truck
 
 ### POST - Create Account
-create a user with role type of diner or operator
+
 <details>
 <summary>https://plantszapi.herokuapp.com/api/auth/register</summary>
 
@@ -63,6 +63,20 @@ Status: 200 OK
 -----------------------------------------------------------------------------------------
 
 ### GET - Get Plant by id
+<details>
+<summary>https://plantszapi.herokuapp.com/api/plants/{plant_id}</summary>
+
+```JSON
+what you get back:
+{
+    "plant_id": 2,
+  
+}
+    
+    
+```
+</details>
+### PUT - Edit Plant by id
 <details>
 <summary>https://plantszapi.herokuapp.com/api/plants/{plant_id}</summary>
 
