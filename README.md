@@ -24,6 +24,30 @@ what you get back:
 }
 ```
 </details>
+### PUT - Create Account
+
+<details>
+<summary>https://plantszapi.herokuapp.com/api/auth/register</summary>
+
+```JSON
+what you need:
+{
+    "username": "Joe",
+    "password": "1234",
+    "phoneNumber":"775-123-1456"
+}
+
+what you get back:
+{
+    "data": {
+        "user_id": 1,
+        "username": "Joe",
+        "password": "$2a$08$0oUfmvlujUay2NBGG8CWJOhqhpB8gZRk/UmVa9X8NEZhUKDVIxt5S",
+       
+    }
+}
+```
+</details>
 
 -----------------------------------------------------------------------------------------
 
@@ -101,14 +125,7 @@ what you get back:
 what you get back:
 [
     {
-        "truck_id": 1,
-        "truck_img": "arturo-rey-m6fYkq_P2Cc-unsplash.jpg",
-        "cuisine_type": "french",
-        "departure_time": "19:00:00",
-        "longitude": "44.88888",
-        "latitude": "22.12121",
-        "diner_favetruck_id": 3,
-        "diner_id": 1
+    plant created
     }
 ]
 ```
