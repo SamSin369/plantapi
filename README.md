@@ -156,7 +156,24 @@ what you get back:
 
 -----------------------------------------------------------------------------------------
 
+### PUT - Edit User by id
+<details>
+<summary>https://plantszapi.herokuapp.com/api/users/users/{user_id}</summary>
 
+```JSON
+    Send 
+    {
+     "phoneNumber": value AND OR "password":value
+    }
+what you get back:
+{
+    "plant_id": 2,
+  
+}
+    
+    
+```
+</details>
 -----------------------------------------------------------------------------------------
 
 
